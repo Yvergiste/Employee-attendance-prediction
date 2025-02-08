@@ -1,0 +1,35 @@
+[
+    {
+        "worker_id": "W001",
+        "work_hours": 8,
+        "days_present_last_week": 5,
+        "overtime_hours": 2,
+        "shift_type_morning": 1,
+        "shift_type_afternoon": 0,
+        "shift_type_night": 0,
+        "age": 30,
+        "experience_years": 5
+    },
+    {
+        "worker_id": "W002",
+        "work_hours": 6,
+        "days_present_last_week": 3,
+        "overtime_hours": 0,
+        "shift_type_morning": 0,
+        "shift_type_afternoon": 1,
+        "shift_type_night": 0,
+        "age": 25,
+        "experience_years": 2
+    },
+    {
+        "worker_id": "W003",
+        "work_hours": 9,
+        "days_present_last_week": 6,
+        "overtime_hours": 3,
+        "shift_type_morning": 0,
+        "shift_type_afternoon": 0,
+        "shift_type_night": 1,
+        "age": 40,
+        "experience_years": 10
+    }
+]
