@@ -1,8 +1,13 @@
+document.addEventListener("DOMContentLoaded", function() {
+    // Attach event listener to the Enter button
+    document.getElementById("enterButton").addEventListener("click", handleFileUpload);
+});
+
 async function handleFileUpload() {
     const fileInput = document.getElementById("jsonFileInput");
     const resultsDiv = document.getElementById("predictionResults");
 
-    if (fileInput.files.length === 0) {
+    if (!fileInput.files.length) {
         alert("Please upload a JSON file first.");
         return;
     }
