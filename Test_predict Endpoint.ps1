@@ -1,0 +1,20 @@
+$body = @{
+    Reason_for_absence = 1
+    Month_of_absence = 3
+    Day_of_the_week = 2
+    Seasons = 1
+    Transportation_expense = 235
+    Distance_from_Residence_to_Work = 11
+    Service_time = 13
+    Age = 33
+    Work_load_Average_day = 265.7
+    Hit_target = 92
+    Disciplinary_failure = 0
+    Education = 1
+    Son = 2
+    Social_drinker = 1
+    Social_smoker = 0
+    Pet = 1
+} | ConvertTo-Json -Compress
+
+Invoke-RestMethod -Uri "http://127.0.0.1:5000/predict" -Method Post -ContentType "application/json" -Body $body
