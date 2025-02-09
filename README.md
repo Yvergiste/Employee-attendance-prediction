@@ -11,7 +11,7 @@ The dataset used in this project was obtained from the **University of Californi
 - Project Structure
 - Data Processing
 - Model Development
-- Deployment
+- Deployment 
 - Usage
 
 ## Installation
